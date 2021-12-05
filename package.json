@@ -1,0 +1,17 @@
+{
+  "name": "MyFirstApp",
+  "version": "1.0.0",
+  "description": "demo",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@wdio/cli": "^7.16.10",
+    "@wdio/local-runner": "^7.16.10",
+    "@wdio/mocha-framework": "^7.16.6",
+    "@wdio/selenium-standalone-service": "^7.16.6",
+    "@wdio/spec-reporter": "^7.16.9",
+    "webdriverio": "^7.16.10"
+  },
+  "scripts": {}
+}

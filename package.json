@@ -5,6 +5,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {},
+  "type": "module",
   "devDependencies": {
     "@wdio/cli": "^7.16.10",
     "@wdio/local-runner": "^7.16.10",

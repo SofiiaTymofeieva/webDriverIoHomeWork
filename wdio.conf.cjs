@@ -1,4 +1,6 @@
+
 exports.config = {
+    // export default config = {
     //
     // ====================
     // Runner Configuration
@@ -55,6 +57,7 @@ exports.config = {
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
         maxInstances: 5,
+      
         //
         browserName: 'chrome',
         acceptInsecureCerts: true
@@ -62,15 +65,18 @@ exports.config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    }, {
-        maxInstances: 5,
-        browserName: 'firefox',
-        acceptInsecureCerts: true
+    }, 
+    // {
+    //     maxInstances: 5,
+    //     browserName: 'firefox',
+    //     acceptInsecureCerts: true
 
 
-    }],
+    // }
+],
     before(){
         console.log('test started')
+        
     },
     //
     // ===================

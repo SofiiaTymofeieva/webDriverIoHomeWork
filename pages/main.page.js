@@ -1,26 +1,21 @@
 import BasePage from '../base/basePage.js'
+import Button from '../elements/button.js';
+import Dropdown from '../elements/dropdown.js';
 
 class MainPage extends BasePage{
+    
     get accountMenuBtn() {
-        return $('#navbarAccount');
+        return  new Button($('#navbarAccount'), "Account Menu")
     }
 
     get loginBtn() {
-        return $('button[routerlink="/login"]');
+        return new Button($('button[routerlink="/login"]'), "Login");
     }
 
     get logoutBtn(){
         return $('button#navbarLogoutButton')
     }
 
-    get closePopupBtn() {
-        return $('button.close-dialog');
-    }
-
-    async open(){
-        await super.open(`http://localhost:3000/#/`);
-        await this.closePopupBtn.click();
-    }
 
     async openAccountMenu() {
         await this.accountMenuBtn.click();
@@ -29,6 +24,7 @@ class MainPage extends BasePage{
     async navigateToLogin() {
         await this.loginBtn.click();
     }
+
 }
 
 export default new MainPage();

@@ -1,5 +1,6 @@
 export default class BasePage {
-    async open (url){
-        await browser.url(url); 
+
+    async open(url){
+        await browser.url(url);
     }
 }

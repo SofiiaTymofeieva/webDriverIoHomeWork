@@ -1,6 +1,7 @@
 import BasePage from '../base/basePage.js';
 import Button from '../elements/button.js';
 import Dropdown from '../elements/dropdown.js';
+import ErrorBlock from '../elements/errorBlock.js';
 import Input from '../elements/input.js';
 
 class RegistrationPage extends BasePage{
@@ -30,6 +31,14 @@ class RegistrationPage extends BasePage{
 
     get registerButton() {
         return new Button($('#registerButton'), "Register button");
+    }
+
+    get emailErrorContainer() {
+        return $('.error');
+    }
+    
+    get successfullyRegistrationBlock() {
+        return $('.mat-simple-snackbar');
     }
 
     async open(){

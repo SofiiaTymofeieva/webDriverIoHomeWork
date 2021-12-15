@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Registration page",
+    "children" : [ {
+      "name" : "Registration should be completed successfully!",
+      "uid" : "1f6772120d017ce1",
+      "parentUid" : "50c1e002fb60a68b6e8d10ebb812a9eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639569259348,
+        "stop" : 1639569272653,
+        "duration" : 13305
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "50c1e002fb60a68b6e8d10ebb812a9eb"
+  } ]
+}

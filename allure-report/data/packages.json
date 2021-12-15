@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Registration page",
+    "children" : [ {
+      "name" : "Registration should be completed successfully!",
+      "uid" : "1f6772120d017ce1",
+      "parentUid" : "72fccba881c3e75f03a2fb355b7be903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639569259348,
+        "stop" : 1639569272653,
+        "duration" : 13305
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "72fccba881c3e75f03a2fb355b7be903"
+  } ]
+}

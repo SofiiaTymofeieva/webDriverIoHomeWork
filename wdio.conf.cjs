@@ -1,4 +1,4 @@
-
+let allureReporter = require("@wdio/allure-reporter").default;
 exports.config = {
     // export default config = {
     //
@@ -75,8 +75,7 @@ exports.config = {
     // }
 ],
     before(){
-        console.log('test started')
-        
+        global.allure = allureReporter;
     },
     //
     // ===================
@@ -147,7 +146,11 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+    reporters: ['spec', ['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]],
 
 
     

@@ -42,6 +42,7 @@ class RegistrationPage extends BasePage{
     }
 
     async open(){
+        allure.addStep("Navigation to registration");
         await super.open(`http://localhost:3000/#/register`);
         if(await this.closePopupBtn.isExisting()) await this.closePopupBtn.click();
     }

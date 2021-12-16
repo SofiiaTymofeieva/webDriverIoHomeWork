@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639660865561' stop='1639660869571'>
+    <name>Search page</name>
+    <title>Search page</title>
+    <test-cases>
+        <test-case start='1639660865562' status='passed' stop='1639660869570'>
+            <name>Placed Best Juice Shop Salesman Artwork into basket.</name>
+            <title>Placed Best Juice Shop Salesman Artwork into basket.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639660865563' status='passed' stop='1639660865563'>
+                    <name>Navigation to registration</name>
+                    <title>Navigation to registration</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

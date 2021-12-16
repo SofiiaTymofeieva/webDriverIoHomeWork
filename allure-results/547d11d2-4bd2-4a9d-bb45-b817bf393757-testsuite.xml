@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639661210555' stop='1639661224678'>
+    <name>OWASP Juice Shop</name>
+    <title>OWASP Juice Shop</title>
+    <test-cases>
+        <test-case start='1639661210555' status='failed' stop='1639661224678'>
+            <name>should contain logout option in account menu</name>
+            <title>should contain logout option in account menu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639661210557' status='passed' stop='1639661210557'>
+                    <name>Navigation to registration</name>
+                    <title>Navigation to registration</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect $(`button#navbarLogoutButton`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"</message>
+                <stack-trace>Error: Expect $(`button#navbarLogoutButton`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at Context.&lt;anonymous> (file:///Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/test/specs/positiveLogin.e2e.js:15:42)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

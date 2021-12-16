@@ -4,6 +4,10 @@ import Dropdown from '../elements/dropdown.js';
 
 class MainPage extends BasePage{
     
+    get closePopupBtn() {
+        return new Button($('button.close-dialog'), "Close popup");
+    }
+
     get accountMenuBtn() {
         return  new Button($('#navbarAccount'), "Account Menu")
     }
@@ -16,6 +20,10 @@ class MainPage extends BasePage{
         return $('button#navbarLogoutButton')
     }
 
+    async open(){
+        await super.open(`http://localhost:3000/#/`);
+        await this.closePopupBtn.click();
+    }
 
     async openAccountMenu() {
         await this.accountMenuBtn.click();

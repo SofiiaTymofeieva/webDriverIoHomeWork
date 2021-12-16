@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639659845102' stop='1639659864129'>
+    <name>OWASP Juice Shop</name>
+    <title>OWASP Juice Shop</title>
+    <test-cases>
+        <test-case start='1639659845102' status='failed' stop='1639659859217'>
+            <name>should contain logout option in account menu</name>
+            <title>should contain logout option in account menu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639659845104' status='passed' stop='1639659845104'>
+                    <name>Navigation to registration</name>
+                    <title>Navigation to registration</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect $(`button#navbarLogoutButton`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"</message>
+                <stack-trace>Error: Expect $(`button#navbarLogoutButton`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at Context.&lt;anonymous> (file:///Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/test/specs/positiveLogin.e2e.js:16:42)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1639659859217' status='broken' stop='1639659864128'>
+            <name>should successfully open About us page</name>
+            <title>should successfully open About us page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;a _ngcontent-tlm-c124="" target="_blank" rel="noopener noreferrer" aria-label="Button for the Twitter page of the shop" style="margin-left: 0px;" href="https://twitter.com/owasp_juiceshop" class="ng-star-inserted">...&lt;/a> is not clickable at point (252, 632). Other element would receive the click: &lt;div class="cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing">&lt;/div>
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>0   chromedriver                        0x0000000104906269 __gxx_personality_v0 + 582729
+                1   chromedriver                        0x0000000104891c33 __gxx_personality_v0 + 106003
+                2   chromedriver                        0x000000010444ee28 chromedriver + 171560
+                3   chromedriver                        0x000000010448b681 chromedriver + 419457
+                4   chromedriver                        0x000000010448933e chromedriver + 410430
+                5   chromedriver                        0x0000000104486b5a chromedriver + 400218
+                6   chromedriver                        0x00000001044855f1 chromedriver + 394737
+                7   chromedriver                        0x0000000104479659 chromedriver + 345689
+                8   chromedriver                        0x00000001044a1962 chromedriver + 510306
+                9   chromedriver                        0x0000000104478f45 chromedriver + 343877
+                10  chromedriver                        0x00000001044a1c7e chromedriver + 511102
+                11  chromedriver                        0x00000001044b4462 chromedriver + 586850
+                12  chromedriver                        0x00000001044a1c23 chromedriver + 511011
+                13  chromedriver                        0x000000010447775e chromedriver + 337758
+                14  chromedriver                        0x0000000104478a95 chromedriver + 342677
+                15  chromedriver                        0x00000001048c28ab __gxx_personality_v0 + 305803
+                16  chromedriver                        0x00000001048d9863 __gxx_personality_v0 + 399939
+                17  chromedriver                        0x00000001048dec7f __gxx_personality_v0 + 421471
+                18  chromedriver                        0x00000001048dabba __gxx_personality_v0 + 404890
+                19  chromedriver                        0x00000001048b6e51 __gxx_personality_v0 + 258097
+                20  chromedriver                        0x00000001048f6158 __gxx_personality_v0 + 516920
+                21  chromedriver                        0x00000001048f62e1 __gxx_personality_v0 + 517313
+                22  chromedriver                        0x000000010490d6f8 __gxx_personality_v0 + 612568
+                23  libsystem_pthread.dylib             0x00007fff6674f2eb _pthread_body + 126
+                24  libsystem_pthread.dylib             0x00007fff66752249 _pthread_start + 66
+                25  libsystem_pthread.dylib             0x00007fff6674e40d thread_start + 13
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

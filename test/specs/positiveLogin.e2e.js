@@ -1,28 +1,23 @@
-import RegistrationPage from '../../pages/registration.page.js'
+import  MainPage  from '../../pages/main.page.js'
+import  LoginPage  from '../../pages/login.page.js'
 
 describe('OWASP Juice Shop', () => {
     it('should contain logout option in account menu', async () => {
-        await RegistrationPage.open();
+        MainPage.open()
+        MainPage.openAccountMenu();
+        MainPage.navigateToLogin();
+        LoginPage.login('severus1234567@gmail.com', 'qwerty');
 
-        await browser.waitUntil(
-            emailInput.isExisting(), 
-            {
-                timeout: 1000, 
-                timeoutMsg: 'wait 1s until page loading'
-            }
-        )
 
-        await RegistrationPage.enterEmail('testMail@gmail.com');
-        await RegistrationPage.enterPassword('testPass');
-        await RegistrationPage.enterRepeatPassword('testPass');
-        await RegistrationPage.selectQuestion("Mother's maiden name?");
-        await RegistrationPage.enterSecurityAnswer("Severus");
-        await RegistrationPage.clickRegisterButton();
+        await browser.pause(4000)
+        MainPage.openAccountMenu();
 
-        await browser.pause(5000);
+        await expect(MainPage.logoutBtn).toBeExisting();
+    });
 
-        await expect(RegistrationPage.errorContainer).toBeExisting();
-        await expect(RegistrationPage.errorContainer).toHaveTextContaining('Email must be unique');
-    })
+    // it('should successfully open About us page', async () => {
+    //         AboutUsPage.open();
+    //         await $('a[aria-label="Button for the Twitter page of the shop"]').click();
+    //     })
 })
 

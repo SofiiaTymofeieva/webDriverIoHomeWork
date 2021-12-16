@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639661698456' stop='1639661710321'>
+    <name>Search page</name>
+    <title>Search page</title>
+    <test-cases>
+        <test-case start='1639661698457' status='broken' stop='1639661710321'>
+            <name>Placed Best Juice Shop Salesman Artwork into basket.</name>
+            <title>Placed Best Juice Shop Salesman Artwork into basket.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639661702466' status='passed' stop='1639661702466'>
+                    <name>Search and buying items</name>
+                    <title>Search and buying items</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>0   chromedriver                        0x0000000106ba1269 __gxx_personality_v0 + 582729
+                1   chromedriver                        0x0000000106b2cc33 __gxx_personality_v0 + 106003
+                2   chromedriver                        0x00000001066e9cdf chromedriver + 171231
+                3   chromedriver                        0x0000000106720480 chromedriver + 394368
+                4   chromedriver                        0x0000000106714659 chromedriver + 345689
+                5   chromedriver                        0x000000010673c962 chromedriver + 510306
+                6   chromedriver                        0x0000000106713f45 chromedriver + 343877
+                7   chromedriver                        0x000000010673cc7e chromedriver + 511102
+                8   chromedriver                        0x000000010674f462 chromedriver + 586850
+                9   chromedriver                        0x000000010673cc23 chromedriver + 511011
+                10  chromedriver                        0x000000010671275e chromedriver + 337758
+                11  chromedriver                        0x0000000106713a95 chromedriver + 342677
+                12  chromedriver                        0x0000000106b5d8ab __gxx_personality_v0 + 305803
+                13  chromedriver                        0x0000000106b74863 __gxx_personality_v0 + 399939
+                14  chromedriver                        0x0000000106b79c7f __gxx_personality_v0 + 421471
+                15  chromedriver                        0x0000000106b75bba __gxx_personality_v0 + 404890
+                16  chromedriver                        0x0000000106b51e51 __gxx_personality_v0 + 258097
+                17  chromedriver                        0x0000000106b91158 __gxx_personality_v0 + 516920
+                18  chromedriver                        0x0000000106b912e1 __gxx_personality_v0 + 517313
+                19  chromedriver                        0x0000000106ba86f8 __gxx_personality_v0 + 612568
+                20  libsystem_pthread.dylib             0x00007fff6674f2eb _pthread_body + 126
+                21  libsystem_pthread.dylib             0x00007fff66752249 _pthread_start + 66
+                22  libsystem_pthread.dylib             0x00007fff6674e40d thread_start + 13
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

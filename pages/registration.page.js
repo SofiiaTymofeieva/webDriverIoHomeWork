@@ -1,7 +1,6 @@
 import BasePage from '../base/basePage.js';
 import Button from '../elements/button.js';
 import Dropdown from '../elements/dropdown.js';
-import ErrorBlock from '../elements/errorBlock.js';
 import Input from '../elements/input.js';
 
 class RegistrationPage extends BasePage{
@@ -47,28 +46,37 @@ class RegistrationPage extends BasePage{
         if(await this.closePopupBtn.isExisting()) await this.closePopupBtn.click();
     }
 
-    async selectQuestion(text) {
-        await this.questionDropdown.select(text);
-    }
+    // async selectQuestion(text) {
+    //     await this.questionDropdown.select(text);
+    // }
 
-    async enterEmail(email){
-        await this.emailInput.setValue(email)
-    }
+    // async enterEmail(email){
+    //     await this.emailInput.setValue(email)
+    // }
 
-    async enterPassword(pass){
-        await this.passwordInput.setValue(pass)
-    }
+    // async enterPassword(pass){
+    //     await this.passwordInput.setValue(pass)
+    // }
 
-    async enterRepeatPassword(pass){
-        await this.repeatPasswordInput.setValue(pass)
-    }
+    // async enterRepeatPassword(pass){
+    //     await this.repeatPasswordInput.setValue(pass)
+    // }
 
-    async enterSecurityAnswer(answer){
-        await this.securityAnswer.setValue(answer)
-    }
+    // async enterSecurityAnswer(answer){
+    //     await this.securityAnswer.setValue(answer)
+    // }
 
-    async clickRegisterButton(){
-        await this.registerButton.click()
+    // async clickRegisterButton(){
+    //     await this.registerButton.click()
+    // }
+    
+    async register(email, password, question, answer){
+        await this.emailInput.setValue(email);
+        await this.passwordInput.setValue(password);
+        await this.repeatPasswordInput.setValue(password);
+        await this.questionDropdown.select(question);
+        await this.securityAnswer.setValue(answer);
+        await this.registerButton.click();
     }
 }
 

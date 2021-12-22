@@ -1,0 +1,83 @@
+{
+  "uid" : "815244beb63a7c18",
+  "name" : "Registration should be completed successfully!",
+  "fullName" : "Registration page.Registration should be completed successfully!",
+  "historyId" : "1b9667c72cec1b02ac54307d9f791861",
+  "time" : {
+    "start" : 1640204441207,
+    "stop" : 1640204447443,
+    "duration" : 6236
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigation to registration",
+      "time" : {
+        "start" : 1640204441208,
+        "stop" : 1640204441208,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Registration page"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Registration should be completed successfully!"
+  }, {
+    "name" : "package",
+    "value" : "Registration page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "815244beb63a7c18.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

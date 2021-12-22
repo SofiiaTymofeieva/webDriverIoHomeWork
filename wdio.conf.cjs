@@ -66,17 +66,15 @@ exports.config = {
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
     }, 
-    // {
-    //     maxInstances: 5,
-    //     browserName: 'firefox',
-    //     acceptInsecureCerts: true
+    {
+        maxInstances: 5,
+        browserName: 'firefox',
+        acceptInsecureCerts: true
 
 
-    // }
+    }
 ],
-    before(){
-        global.allure = allureReporter;
-    },
+    
     //
     // ===================
     // Test Configurations
@@ -195,7 +193,11 @@ exports.config = {
      * @param {Array.<String>} specs List of spec file paths that are to be run
      * @param {String} cid worker id (e.g. 0-0)
      */
-    // beforeSession: function (config, capabilities, specs, cid) {
+     before: function(capabilities, specs){
+        global.allure = allureReporter;
+    },
+    // beforeSession: function (config, capabilities, specs, ) {
+    //     global.allure = allureReporter;
     // },
     /**
      * Gets executed before test execution begins. At this point you can access to all global
@@ -248,6 +250,12 @@ exports.config = {
      */
     // afterTest: function(test, context, { error, result, duration, passed, retries }) {
     // },
+    afterTest: async function(test, context, { error, result, duration, passed, retries }){
+        if (!passed) {
+            let screen = await browser.takeScreenshot();
+            await allureReporter.addAttachment("MyScreenShot", Buffer.from(screen, "base64"), "image/png")
+        }
+    },
 
 
     /**

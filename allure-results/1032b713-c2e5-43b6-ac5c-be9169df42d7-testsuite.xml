@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640204086840' stop='1640204094668'>
+    <name>Search page</name>
+    <title>Search page</title>
+    <test-cases>
+        <test-case start='1640204086840' status='broken' stop='1640204094668'>
+            <name>Placed Best Juice Shop Salesman Artwork into basket.</name>
+            <title>Placed Best Juice Shop Salesman Artwork into basket.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenShot' source='e9ccfdd4-098b-403b-aeee-867386be9c1a-attachment.png' type='image/png' size='118082'/>
+            </attachments>
+            <failure>
+                <message>Element &lt;button id="submitButton" class="mat-focus-indicator mat-raised-button mat-button-base mat-primary" type="submit"> is not clickable at point (779,641) because another element &lt;div id="cdk-overlay-4" class="cdk-overlay-pane"> obscures it</message>
+                <stack-trace>WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5
+                ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.jsm:280:5
+                webdriverClickElement@chrome://remote/content/marionette/interaction.js:166:11
+                interaction.clickElement@chrome://remote/content/marionette/interaction.js:125:11
+                clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:200:24
+                receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:91:31
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,34 +1,39 @@
 import MainPage from '../../pages/main.page.js';
-import searchPage from '../../pages/search.page.js';
-import randomstring from 'randomstring';
+import BuyPage from '../../pages/buy.page.js';
 import LoginPage from '../../pages/login.page.js';
 
 
 describe('Search page', () => {
     it('Placed Best Juice Shop Salesman Artwork into basket.', async () => {
-        MainPage.open()
-        MainPage.openAccountMenu();
-        MainPage.navigateToLogin();
-        LoginPage.login('severus1234567@gmail.com', 'qwerty');
+        // await browser.setWindowSize(1024, 800);
 
-        
+        await MainPage.open();
 
-        await searchPage.clickAddToBasket();
-        
-        await searchPage.clickYourBasketBtn();
-    
-        await searchPage.clickCheckoutBtn();
-        
+        await MainPage.openAccountMenu();
+        await MainPage.navigateToLogin();
+        await LoginPage.login('severus1234567@gmail.com', 'qwerty');
 
-        await searchPage.clickAddNewAddress();
+        await BuyPage.clickAddToBasket();
 
-        await searchPage.addCountryInput('Ukraine');
-        await browser.pause(7000);
+        await BuyPage.clickYourBasketBtn();
+        await browser.pause(2000);
 
+        await BuyPage.clickCheckoutBtn();
 
+        await BuyPage.clickAddNewAddress();
 
+        await BuyPage.enterAddressData(
+            'Great Britain',
+            'Severus',
+            '0938433142',
+            '5560',
+            'Alley Diagone',
+            'London',
+            'London',
+            );
 
+        await BuyPage.selectAddress();
 
-        // await expect(MainPage.logoutBtn).toBeExisting();
+         expect(BuyPage.addNewAddress).toBeDisplayed();
     })
 })

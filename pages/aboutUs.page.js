@@ -9,8 +9,10 @@ class AboutUsPage extends BasePage {
     }
 
     get socialFacebookLink(){
-        return new Button($('a[href="https://www.facebook.com/owasp.juiceshop"]'), 'Social facebook link element');
+        return new Button($('button[href="https://www.facebook.com/owasp.juiceshop"]'), 'Social facebook link element');
     }
+
+    
 }
 
 export default new AboutUsPage();

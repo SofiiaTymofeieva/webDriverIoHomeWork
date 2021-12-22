@@ -1,0 +1,76 @@
+{
+  "uid" : "5347c21f505ff841",
+  "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+  "fullName" : "Search page.Placed Best Juice Shop Salesman Artwork into basket.",
+  "historyId" : "285dff2f5c1d76fdaf938693220d53af",
+  "time" : {
+    "start" : 1640204086840,
+    "stop" : 1640204094668,
+    "duration" : 7828
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Element <button id=\"submitButton\" class=\"mat-focus-indicator mat-raised-button mat-button-base mat-primary\" type=\"submit\"> is not clickable at point (779,641) because another element <div id=\"cdk-overlay-4\" class=\"cdk-overlay-pane\"> obscures it",
+  "statusTrace" : "WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n                ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.jsm:280:5\n                webdriverClickElement@chrome://remote/content/marionette/interaction.js:166:11\n                interaction.clickElement@chrome://remote/content/marionette/interaction.js:125:11\n                clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:200:24\n                receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:91:31\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Element <button id=\"submitButton\" class=\"mat-focus-indicator mat-raised-button mat-button-base mat-primary\" type=\"submit\"> is not clickable at point (779,641) because another element <div id=\"cdk-overlay-4\" class=\"cdk-overlay-pane\"> obscures it",
+    "statusTrace" : "WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n                ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.jsm:280:5\n                webdriverClickElement@chrome://remote/content/marionette/interaction.js:166:11\n                interaction.clickElement@chrome://remote/content/marionette/interaction.js:125:11\n                clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:200:24\n                receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:91:31\n                ",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "645d9c99e1168a9f",
+      "name" : "MyScreenShot",
+      "source" : "645d9c99e1168a9f.png",
+      "type" : "image/png",
+      "size" : 118082
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search page"
+  }, {
+    "name" : "testClass",
+    "value" : "Search page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Placed Best Juice Shop Salesman Artwork into basket."
+  }, {
+    "name" : "package",
+    "value" : "Search page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5347c21f505ff841.json",
+  "parameterValues" : [ "firefox-95.0.2" ]
+}

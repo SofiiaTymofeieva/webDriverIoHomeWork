@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640204085448' stop='1640204100224'>
+    <name>Search page</name>
+    <title>Search page</title>
+    <test-cases>
+        <test-case start='1640204085448' status='broken' stop='1640204100222'>
+            <name>Placed Best Juice Shop Salesman Artwork into basket.</name>
+            <title>Placed Best Juice Shop Salesman Artwork into basket.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenShot' source='2fe321a1-5729-4549-a2ae-6766afb6db00-attachment.png' type='image/png' size='224495'/>
+            </attachments>
+            <failure>
+                <message>element click intercepted: Element &lt;mat-row _ngcontent-dwo-c171="" role="row" class="mat-row cdk-row ng-star-inserted" style="flex-direction: row; box-sizing: border-box; display: flex;">...&lt;/mat-row> is not clickable at point (600, 590). Other element would receive the click: &lt;span>...&lt;/span>
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>0   chromedriver                        0x0000000101f02269 __gxx_personality_v0 + 582729
+                1   chromedriver                        0x0000000101e8dc33 __gxx_personality_v0 + 106003
+                2   chromedriver                        0x0000000101a4ae28 chromedriver + 171560
+                3   chromedriver                        0x0000000101a87681 chromedriver + 419457
+                4   chromedriver                        0x0000000101a8533e chromedriver + 410430
+                5   chromedriver                        0x0000000101a82b5a chromedriver + 400218
+                6   chromedriver                        0x0000000101a815f1 chromedriver + 394737
+                7   chromedriver                        0x0000000101a75659 chromedriver + 345689
+                8   chromedriver                        0x0000000101a9d962 chromedriver + 510306
+                9   chromedriver                        0x0000000101a74f45 chromedriver + 343877
+                10  chromedriver                        0x0000000101a9dc7e chromedriver + 511102
+                11  chromedriver                        0x0000000101ab0462 chromedriver + 586850
+                12  chromedriver                        0x0000000101a9dc23 chromedriver + 511011
+                13  chromedriver                        0x0000000101a7375e chromedriver + 337758
+                14  chromedriver                        0x0000000101a74a95 chromedriver + 342677
+                15  chromedriver                        0x0000000101ebe8ab __gxx_personality_v0 + 305803
+                16  chromedriver                        0x0000000101ed5863 __gxx_personality_v0 + 399939
+                17  chromedriver                        0x0000000101edac7f __gxx_personality_v0 + 421471
+                18  chromedriver                        0x0000000101ed6bba __gxx_personality_v0 + 404890
+                19  chromedriver                        0x0000000101eb2e51 __gxx_personality_v0 + 258097
+                20  chromedriver                        0x0000000101ef2158 __gxx_personality_v0 + 516920
+                21  chromedriver                        0x0000000101ef22e1 __gxx_personality_v0 + 517313
+                22  chromedriver                        0x0000000101f096f8 __gxx_personality_v0 + 612568
+                23  libsystem_pthread.dylib             0x00007fff6674f2eb _pthread_body + 126
+                24  libsystem_pthread.dylib             0x00007fff66752249 _pthread_start + 66
+                25  libsystem_pthread.dylib             0x00007fff6674e40d thread_start + 13
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

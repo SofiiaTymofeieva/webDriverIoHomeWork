@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Element <button id=\"registerButton\" class=\"mat-focus-indicator mat-raised-button mat-button-base mat-primary\" type=\"submit\"> is not clickable at point (640,641) because another element <div id=\"cdk-overlay-1\" class=\"cdk-overlay-pane\"> obscures it",
+      "children" : [ {
+        "name" : "Registration should be completed successfully!",
+        "uid" : "7c7d8ebff29e9c28",
+        "parentUid" : "75428774ebb24ea8b9759d398ee434af",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640204442623,
+          "stop" : 1640204445512,
+          "duration" : 2889
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-95.0.2" ]
+      } ],
+      "uid" : "75428774ebb24ea8b9759d398ee434af"
+    }, {
+      "name" : "Element <button id=\"registerButton\" class=\"mat-focus-indicator mat-raised-button mat-button-base mat-primary\" type=\"submit\"> is not clickable at point (640,641) because another element <div id=\"cdk-overlay-0\" class=\"cdk-overlay-pane\"> obscures it",
+      "children" : [ {
+        "name" : "Should display correct error message if email not unique",
+        "uid" : "6ca17a575c904d64",
+        "parentUid" : "c5646d7ced793ce5d014923904ccee51",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640204535949,
+          "stop" : 1640204538787,
+          "duration" : 2838
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-95.0.2" ]
+      } ],
+      "uid" : "c5646d7ced793ce5d014923904ccee51"
+    }, {
+      "name" : "Element <button id=\"submitButton\" class=\"mat-focus-indicator mat-raised-button mat-button-base mat-primary\" type=\"submit\"> is not clickable at point (779,641) because another element <div id=\"cdk-overlay-3\" class=\"cdk-overlay-pane\"> obscures it",
+      "children" : [ {
+        "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+        "uid" : "88a1f42fca9cdd6d",
+        "parentUid" : "c9cb59d4650654031b1775c4963891bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640204592740,
+          "stop" : 1640204599535,
+          "duration" : 6795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-95.0.2" ]
+      } ],
+      "uid" : "c9cb59d4650654031b1775c4963891bc"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`button#navbarLogoutButton`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "children" : [ {
+        "name" : "Login should be completed successfully!",
+        "uid" : "28ed8033e33464b7",
+        "parentUid" : "5e53e2be7c71cd610923d1d7e7c56d57",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640204445518,
+          "stop" : 1640204456591,
+          "duration" : 11073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-95.0.2" ]
+      } ],
+      "uid" : "5e53e2be7c71cd610923d1d7e7c56d57"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

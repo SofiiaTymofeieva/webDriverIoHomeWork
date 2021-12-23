@@ -1,0 +1,101 @@
+[ {
+  "uid" : "815244beb63a7c18",
+  "name" : "Registration should be completed successfully!",
+  "time" : {
+    "start" : 1640204441207,
+    "stop" : 1640204447443,
+    "duration" : 6236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68ca966aefd71c3b",
+  "name" : "Login should be completed successfully!",
+  "time" : {
+    "start" : 1640204447451,
+    "stop" : 1640204448741,
+    "duration" : 1290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88a1f42fca9cdd6d",
+  "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+  "time" : {
+    "start" : 1640204592740,
+    "stop" : 1640204599535,
+    "duration" : 6795
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "250fcd0166b6857b",
+  "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+  "time" : {
+    "start" : 1640204591456,
+    "stop" : 1640204600574,
+    "duration" : 9118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28ed8033e33464b7",
+  "name" : "Login should be completed successfully!",
+  "time" : {
+    "start" : 1640204445518,
+    "stop" : 1640204456591,
+    "duration" : 11073
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f016b11c3e9a5416",
+  "name" : "Should display correct error message if email not unique",
+  "time" : {
+    "start" : 1640204534636,
+    "stop" : 1640204542078,
+    "duration" : 7442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c7d8ebff29e9c28",
+  "name" : "Registration should be completed successfully!",
+  "time" : {
+    "start" : 1640204442623,
+    "stop" : 1640204445512,
+    "duration" : 2889
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ed7a30c7eeadeb4a",
+  "name" : "Should display correct error message if invalid mail or password",
+  "time" : {
+    "start" : 1640204538794,
+    "stop" : 1640204539478,
+    "duration" : 684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ca17a575c904d64",
+  "name" : "Should display correct error message if email not unique",
+  "time" : {
+    "start" : 1640204535949,
+    "stop" : 1640204538787,
+    "duration" : 2838
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3ca21c42a8de5b46",
+  "name" : "Should display correct error message if invalid mail or password",
+  "time" : {
+    "start" : 1640204542088,
+    "stop" : 1640204542652,
+    "duration" : 564
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

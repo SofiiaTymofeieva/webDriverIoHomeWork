@@ -1,0 +1,58 @@
+{
+  "uid" : "68ca966aefd71c3b",
+  "name" : "Login should be completed successfully!",
+  "fullName" : "Login page.Login should be completed successfully!",
+  "historyId" : "2697bd841d76e418dfe1389c9ea58961",
+  "time" : {
+    "start" : 1640204447451,
+    "stop" : 1640204448741,
+    "duration" : 1290
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login should be completed successfully!"
+  }, {
+    "name" : "package",
+    "value" : "Login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68ca966aefd71c3b.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

@@ -1,0 +1,82 @@
+{
+  "uid" : "28ed8033e33464b7",
+  "name" : "Login should be completed successfully!",
+  "fullName" : "Login page.Login should be completed successfully!",
+  "historyId" : "173344c27499ec23472f636f532cdd25",
+  "time" : {
+    "start" : 1640204445518,
+    "stop" : 1640204456591,
+    "duration" : 11073
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`button#navbarLogoutButton`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+  "statusTrace" : "Error: Expect $(`button#navbarLogoutButton`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (file:///Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/test/specs/positiveRegistrationAndLogin.e2e.js:31:42)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`button#navbarLogoutButton`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+    "statusTrace" : "Error: Expect $(`button#navbarLogoutButton`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (file:///Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/test/specs/positiveRegistrationAndLogin.e2e.js:31:42)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "57584b1753455e02",
+      "name" : "MyScreenShot",
+      "source" : "57584b1753455e02.png",
+      "type" : "image/png",
+      "size" : 106665
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login should be completed successfully!"
+  }, {
+    "name" : "package",
+    "value" : "Login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "28ed8033e33464b7.json",
+  "parameterValues" : [ "firefox-95.0.2" ]
+}

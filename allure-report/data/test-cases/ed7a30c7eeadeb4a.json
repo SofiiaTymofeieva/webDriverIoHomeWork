@@ -1,0 +1,58 @@
+{
+  "uid" : "ed7a30c7eeadeb4a",
+  "name" : "Should display correct error message if invalid mail or password",
+  "fullName" : "Login page.Should display correct error message if invalid mail or password",
+  "historyId" : "38cd17d06950fbf67dc78f41a94a748c",
+  "time" : {
+    "start" : 1640204538794,
+    "stop" : 1640204539478,
+    "duration" : 684
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should display correct error message if invalid mail or password"
+  }, {
+    "name" : "package",
+    "value" : "Login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed7a30c7eeadeb4a.json",
+  "parameterValues" : [ "firefox-95.0.2" ]
+}

@@ -1,0 +1,75 @@
+{
+  "uid" : "250fcd0166b6857b",
+  "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+  "fullName" : "Search page.Placed Best Juice Shop Salesman Artwork into basket.",
+  "historyId" : "96cdec0b81b002dd0421e69a587564d0",
+  "time" : {
+    "start" : 1640204591456,
+    "stop" : 1640204600574,
+    "duration" : 9118
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search page"
+  }, {
+    "name" : "testClass",
+    "value" : "Search page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Placed Best Juice Shop Salesman Artwork into basket."
+  }, {
+    "name" : "package",
+    "value" : "Search page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "63811df616f30500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204282005,
+        "stop" : 1640204290908,
+        "duration" : 8903
+      }
+    }, {
+      "uid" : "5601b768b813fbe",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <mat-row _ngcontent-dwo-c171=\"\" role=\"row\" class=\"mat-row cdk-row ng-star-inserted\" style=\"flex-direction: row; box-sizing: border-box; display: flex;\">...</mat-row> is not clickable at point (600, 590). Other element would receive the click: <span>...</span>\n                  (Session info: chrome=96.0.4664.110)",
+      "time" : {
+        "start" : 1640204085448,
+        "stop" : 1640204100222,
+        "duration" : 14774
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "250fcd0166b6857b.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

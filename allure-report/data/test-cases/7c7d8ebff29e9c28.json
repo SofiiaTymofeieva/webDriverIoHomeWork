@@ -1,0 +1,97 @@
+{
+  "uid" : "7c7d8ebff29e9c28",
+  "name" : "Registration should be completed successfully!",
+  "fullName" : "Registration page.Registration should be completed successfully!",
+  "historyId" : "65299766a2a98d80e35521bb2e44f21f",
+  "time" : {
+    "start" : 1640204442623,
+    "stop" : 1640204445512,
+    "duration" : 2889
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Element <button id=\"registerButton\" class=\"mat-focus-indicator mat-raised-button mat-button-base mat-primary\" type=\"submit\"> is not clickable at point (640,641) because another element <div id=\"cdk-overlay-1\" class=\"cdk-overlay-pane\"> obscures it",
+  "statusTrace" : "WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n                ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.jsm:280:5\n                webdriverClickElement@chrome://remote/content/marionette/interaction.js:166:11\n                interaction.clickElement@chrome://remote/content/marionette/interaction.js:125:11\n                clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:200:24\n                receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:91:31\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Element <button id=\"registerButton\" class=\"mat-focus-indicator mat-raised-button mat-button-base mat-primary\" type=\"submit\"> is not clickable at point (640,641) because another element <div id=\"cdk-overlay-1\" class=\"cdk-overlay-pane\"> obscures it",
+    "statusTrace" : "WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n                ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.jsm:280:5\n                webdriverClickElement@chrome://remote/content/marionette/interaction.js:166:11\n                interaction.clickElement@chrome://remote/content/marionette/interaction.js:125:11\n                clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:200:24\n                receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:91:31\n                ",
+    "steps" : [ {
+      "name" : "Navigation to registration",
+      "time" : {
+        "start" : 1640204442625,
+        "stop" : 1640204442625,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c59ef72fbd224176",
+      "name" : "MyScreenShot",
+      "source" : "c59ef72fbd224176.png",
+      "type" : "image/png",
+      "size" : 125068
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Registration page"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Registration should be completed successfully!"
+  }, {
+    "name" : "package",
+    "value" : "Registration page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7c7d8ebff29e9c28.json",
+  "parameterValues" : [ "firefox-95.0.2" ]
+}

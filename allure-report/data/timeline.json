@@ -1,0 +1,195 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+      "uid" : "5601b768b813fbe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1640204085448,
+        "stop" : 1640204100222,
+        "duration" : 14774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+      "uid" : "250fcd0166b6857b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204591456,
+        "stop" : 1640204600574,
+        "duration" : 9118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Login should be completed successfully!",
+      "uid" : "68ca966aefd71c3b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204447451,
+        "stop" : 1640204448741,
+        "duration" : 1290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Should display correct error message if invalid mail or password",
+      "uid" : "3ca21c42a8de5b46",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204542088,
+        "stop" : 1640204542652,
+        "duration" : 564
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+      "uid" : "63811df616f30500",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204282005,
+        "stop" : 1640204290908,
+        "duration" : 8903
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Registration should be completed successfully!",
+      "uid" : "815244beb63a7c18",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204441207,
+        "stop" : 1640204447443,
+        "duration" : 6236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Should display correct error message if email not unique",
+      "uid" : "f016b11c3e9a5416",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204534636,
+        "stop" : 1640204542078,
+        "duration" : 7442
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "1-0",
+    "children" : [ {
+      "name" : "Should display correct error message if email not unique",
+      "uid" : "6ca17a575c904d64",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1640204535949,
+        "stop" : 1640204538787,
+        "duration" : 2838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-95.0.2" ]
+    }, {
+      "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+      "uid" : "5347c21f505ff841",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1640204086840,
+        "stop" : 1640204094668,
+        "duration" : 7828
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-95.0.2" ]
+    }, {
+      "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+      "uid" : "aa2da48b373782fd",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1640204283327,
+        "stop" : 1640204290012,
+        "duration" : 6685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-95.0.2" ]
+    }, {
+      "name" : "Login should be completed successfully!",
+      "uid" : "28ed8033e33464b7",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1640204445518,
+        "stop" : 1640204456591,
+        "duration" : 11073
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-95.0.2" ]
+    }, {
+      "name" : "Registration should be completed successfully!",
+      "uid" : "7c7d8ebff29e9c28",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1640204442623,
+        "stop" : 1640204445512,
+        "duration" : 2889
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-95.0.2" ]
+    }, {
+      "name" : "Should display correct error message if invalid mail or password",
+      "uid" : "ed7a30c7eeadeb4a",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204538794,
+        "stop" : 1640204539478,
+        "duration" : 684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-95.0.2" ]
+    }, {
+      "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+      "uid" : "88a1f42fca9cdd6d",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1640204592740,
+        "stop" : 1640204599535,
+        "duration" : 6795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-95.0.2" ]
+    } ],
+    "uid" : "5d884c24784638b93056bad95e3212e7"
+  } ]
+}

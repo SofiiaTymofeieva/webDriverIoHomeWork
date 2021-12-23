@@ -1,0 +1,196 @@
+{
+  "9d24336b24eaeca8da1ff67632aa3923" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ca17a575c904d64",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"registerButton\" class=\"mat-focus-indicator mat-raised-button mat-button-base mat-primary\" type=\"submit\"> is not clickable at point (640,641) because another element <div id=\"cdk-overlay-0\" class=\"cdk-overlay-pane\"> obscures it",
+      "time" : {
+        "start" : 1640204535949,
+        "stop" : 1640204538787,
+        "duration" : 2838
+      }
+    } ]
+  },
+  "285dff2f5c1d76fdaf938693220d53af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88a1f42fca9cdd6d",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"submitButton\" class=\"mat-focus-indicator mat-raised-button mat-button-base mat-primary\" type=\"submit\"> is not clickable at point (779,641) because another element <div id=\"cdk-overlay-3\" class=\"cdk-overlay-pane\"> obscures it",
+      "time" : {
+        "start" : 1640204592740,
+        "stop" : 1640204599535,
+        "duration" : 6795
+      }
+    } ]
+  },
+  "65299766a2a98d80e35521bb2e44f21f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c7d8ebff29e9c28",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"registerButton\" class=\"mat-focus-indicator mat-raised-button mat-button-base mat-primary\" type=\"submit\"> is not clickable at point (640,641) because another element <div id=\"cdk-overlay-1\" class=\"cdk-overlay-pane\"> obscures it",
+      "time" : {
+        "start" : 1640204442623,
+        "stop" : 1640204445512,
+        "duration" : 2889
+      }
+    } ]
+  },
+  "a7b0c08835b11d8270135a6dc1b67a89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f016b11c3e9a5416",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204534636,
+        "stop" : 1640204542078,
+        "duration" : 7442
+      }
+    } ]
+  },
+  "1b9667c72cec1b02ac54307d9f791861" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "815244beb63a7c18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204441207,
+        "stop" : 1640204447443,
+        "duration" : 6236
+      }
+    } ]
+  },
+  "38cd17d06950fbf67dc78f41a94a748c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed7a30c7eeadeb4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204538794,
+        "stop" : 1640204539478,
+        "duration" : 684
+      }
+    } ]
+  },
+  "173344c27499ec23472f636f532cdd25" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28ed8033e33464b7",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`button#navbarLogoutButton`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1640204445518,
+        "stop" : 1640204456591,
+        "duration" : 11073
+      }
+    } ]
+  },
+  "96cdec0b81b002dd0421e69a587564d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "250fcd0166b6857b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204591456,
+        "stop" : 1640204600574,
+        "duration" : 9118
+      }
+    } ]
+  },
+  "2697bd841d76e418dfe1389c9ea58961" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68ca966aefd71c3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204447451,
+        "stop" : 1640204448741,
+        "duration" : 1290
+      }
+    } ]
+  },
+  "7b3a5647da2b3c0ddb93f17ab7a762cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ca21c42a8de5b46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640204542088,
+        "stop" : 1640204542652,
+        "duration" : 564
+      }
+    } ]
+  }
+}

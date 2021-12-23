@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640204441206' stop='1640204447444'>
+    <name>Registration page</name>
+    <title>Registration page</title>
+    <test-cases>
+        <test-case start='1640204441207' status='passed' stop='1640204447443'>
+            <name>Registration should be completed successfully!</name>
+            <title>Registration should be completed successfully!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1640204441208' status='passed' stop='1640204441208'>
+                    <name>Navigation to registration</name>
+                    <title>Navigation to registration</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,76 @@
+{
+  "uid" : "5601b768b813fbe",
+  "name" : "Placed Best Juice Shop Salesman Artwork into basket.",
+  "fullName" : "Search page.Placed Best Juice Shop Salesman Artwork into basket.",
+  "historyId" : "96cdec0b81b002dd0421e69a587564d0",
+  "time" : {
+    "start" : 1640204085448,
+    "stop" : 1640204100222,
+    "duration" : 14774
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <mat-row _ngcontent-dwo-c171=\"\" role=\"row\" class=\"mat-row cdk-row ng-star-inserted\" style=\"flex-direction: row; box-sizing: border-box; display: flex;\">...</mat-row> is not clickable at point (600, 590). Other element would receive the click: <span>...</span>\n                  (Session info: chrome=96.0.4664.110)",
+  "statusTrace" : "0   chromedriver                        0x0000000101f02269 __gxx_personality_v0 + 582729\n                1   chromedriver                        0x0000000101e8dc33 __gxx_personality_v0 + 106003\n                2   chromedriver                        0x0000000101a4ae28 chromedriver + 171560\n                3   chromedriver                        0x0000000101a87681 chromedriver + 419457\n                4   chromedriver                        0x0000000101a8533e chromedriver + 410430\n                5   chromedriver                        0x0000000101a82b5a chromedriver + 400218\n                6   chromedriver                        0x0000000101a815f1 chromedriver + 394737\n                7   chromedriver                        0x0000000101a75659 chromedriver + 345689\n                8   chromedriver                        0x0000000101a9d962 chromedriver + 510306\n                9   chromedriver                        0x0000000101a74f45 chromedriver + 343877\n                10  chromedriver                        0x0000000101a9dc7e chromedriver + 511102\n                11  chromedriver                        0x0000000101ab0462 chromedriver + 586850\n                12  chromedriver                        0x0000000101a9dc23 chromedriver + 511011\n                13  chromedriver                        0x0000000101a7375e chromedriver + 337758\n                14  chromedriver                        0x0000000101a74a95 chromedriver + 342677\n                15  chromedriver                        0x0000000101ebe8ab __gxx_personality_v0 + 305803\n                16  chromedriver                        0x0000000101ed5863 __gxx_personality_v0 + 399939\n                17  chromedriver                        0x0000000101edac7f __gxx_personality_v0 + 421471\n                18  chromedriver                        0x0000000101ed6bba __gxx_personality_v0 + 404890\n                19  chromedriver                        0x0000000101eb2e51 __gxx_personality_v0 + 258097\n                20  chromedriver                        0x0000000101ef2158 __gxx_personality_v0 + 516920\n                21  chromedriver                        0x0000000101ef22e1 __gxx_personality_v0 + 517313\n                22  chromedriver                        0x0000000101f096f8 __gxx_personality_v0 + 612568\n                23  libsystem_pthread.dylib             0x00007fff6674f2eb _pthread_body + 126\n                24  libsystem_pthread.dylib             0x00007fff66752249 _pthread_start + 66\n                25  libsystem_pthread.dylib             0x00007fff6674e40d thread_start + 13\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <mat-row _ngcontent-dwo-c171=\"\" role=\"row\" class=\"mat-row cdk-row ng-star-inserted\" style=\"flex-direction: row; box-sizing: border-box; display: flex;\">...</mat-row> is not clickable at point (600, 590). Other element would receive the click: <span>...</span>\n                  (Session info: chrome=96.0.4664.110)",
+    "statusTrace" : "0   chromedriver                        0x0000000101f02269 __gxx_personality_v0 + 582729\n                1   chromedriver                        0x0000000101e8dc33 __gxx_personality_v0 + 106003\n                2   chromedriver                        0x0000000101a4ae28 chromedriver + 171560\n                3   chromedriver                        0x0000000101a87681 chromedriver + 419457\n                4   chromedriver                        0x0000000101a8533e chromedriver + 410430\n                5   chromedriver                        0x0000000101a82b5a chromedriver + 400218\n                6   chromedriver                        0x0000000101a815f1 chromedriver + 394737\n                7   chromedriver                        0x0000000101a75659 chromedriver + 345689\n                8   chromedriver                        0x0000000101a9d962 chromedriver + 510306\n                9   chromedriver                        0x0000000101a74f45 chromedriver + 343877\n                10  chromedriver                        0x0000000101a9dc7e chromedriver + 511102\n                11  chromedriver                        0x0000000101ab0462 chromedriver + 586850\n                12  chromedriver                        0x0000000101a9dc23 chromedriver + 511011\n                13  chromedriver                        0x0000000101a7375e chromedriver + 337758\n                14  chromedriver                        0x0000000101a74a95 chromedriver + 342677\n                15  chromedriver                        0x0000000101ebe8ab __gxx_personality_v0 + 305803\n                16  chromedriver                        0x0000000101ed5863 __gxx_personality_v0 + 399939\n                17  chromedriver                        0x0000000101edac7f __gxx_personality_v0 + 421471\n                18  chromedriver                        0x0000000101ed6bba __gxx_personality_v0 + 404890\n                19  chromedriver                        0x0000000101eb2e51 __gxx_personality_v0 + 258097\n                20  chromedriver                        0x0000000101ef2158 __gxx_personality_v0 + 516920\n                21  chromedriver                        0x0000000101ef22e1 __gxx_personality_v0 + 517313\n                22  chromedriver                        0x0000000101f096f8 __gxx_personality_v0 + 612568\n                23  libsystem_pthread.dylib             0x00007fff6674f2eb _pthread_body + 126\n                24  libsystem_pthread.dylib             0x00007fff66752249 _pthread_start + 66\n                25  libsystem_pthread.dylib             0x00007fff6674e40d thread_start + 13\n                ",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bc8172465a0bafdb",
+      "name" : "MyScreenShot",
+      "source" : "bc8172465a0bafdb.png",
+      "type" : "image/png",
+      "size" : 224495
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search page"
+  }, {
+    "name" : "testClass",
+    "value" : "Search page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Placed Best Juice Shop Salesman Artwork into basket."
+  }, {
+    "name" : "package",
+    "value" : "Search page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5601b768b813fbe.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

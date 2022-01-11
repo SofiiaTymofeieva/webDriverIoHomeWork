@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641475748031' stop='1641475748116'>
+    <name>API Testing of Juice-shop</name>
+    <title>API Testing of Juice-shop</title>
+    <test-cases>
+        <test-case start='1641475748032' status='passed' stop='1641475748065'>
+            <name>Checking GET feedbacks</name>
+            <title>Checking GET feedbacks</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1641475748065' status='passed' stop='1641475748115'>
+            <name>Checking POST for user creation</name>
+            <title>Checking POST for user creation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641404809621' stop='1641404809945'>
+    <name>API Testing of Juice-shop</name>
+    <title>API Testing of Juice-shop</title>
+    <test-cases>
+        <test-case start='1641404809622' status='passed' stop='1641404809655'>
+            <name>Checking GET feedbacks</name>
+            <title>Checking GET feedbacks</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1641404809655' status='failed' stop='1641404809945'>
+            <name>Checking POST feedbacks</name>
+            <title>Checking POST feedbacks</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenShot' source='02dc8677-dc6c-46ba-a5d4-722fe79df70f-attachment.png' type='image/png' size='15168'/>
+            </attachments>
+            <failure>
+                <message>expected 201 to equal 200      
+                      actual expected
+                      
+                      201200
+                      </message>
+                <stack-trace>AssertionError: expected 201 to equal 200
+                    at Context.&lt;anonymous> (file:///Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/api/test/api.js:22:40)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

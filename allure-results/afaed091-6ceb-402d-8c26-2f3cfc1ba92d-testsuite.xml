@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641247472614' stop='1641247493503'>
+    <name>Registration page</name>
+    <title>Registration page</title>
+    <test-cases>
+        <test-case start='1641247472615' status='broken' stop='1641247493502'>
+            <name>Should display correct error message if email not unique</name>
+            <title>Should display correct error message if email not unique</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1641247472680' status='passed' stop='1641247472680'>
+                    <name>Navigation to registration</name>
+                    <title>Navigation to registration</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='MyScreenShot' source='2b2ff92e-7c0f-4c5c-9bf6-8174b1b58b22-attachment.png' type='image/png' size='127536'/>
+            </attachments>
+            <failure>
+                <message>element click intercepted: Element &lt;mat-select _ngcontent-nsg-c132="" role="combobox" aria-autocomplete="none" aria-haspopup="true" placeholder="" name="securityQuestion" aria-label="Selection list for the security question" class="mat-select ng-tns-c131-11 ng-tns-c119-10 mat-select-required mat-select-empty ng-untouched ng-pristine ng-invalid ng-star-inserted" id="mat-select-0" tabindex="0" aria-expanded="false" aria-required="true" aria-disabled="false" aria-invalid="false" aria-describedby="mat-hint-3">...&lt;/mat-select> is not clickable at point (599, 507). Other element would receive the click: &lt;div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing">&lt;/div>
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>0   chromedriver                        0x0000000100f47269 __gxx_personality_v0 + 582729
+                1   chromedriver                        0x0000000100ed2c33 __gxx_personality_v0 + 106003
+                2   chromedriver                        0x0000000100a8fe28 chromedriver + 171560
+                3   chromedriver                        0x0000000100acc681 chromedriver + 419457
+                4   chromedriver                        0x0000000100aca33e chromedriver + 410430
+                5   chromedriver                        0x0000000100ac7b5a chromedriver + 400218
+                6   chromedriver                        0x0000000100ac65f1 chromedriver + 394737
+                7   chromedriver                        0x0000000100aba659 chromedriver + 345689
+                8   chromedriver                        0x0000000100ae2962 chromedriver + 510306
+                9   chromedriver                        0x0000000100ab9f45 chromedriver + 343877
+                10  chromedriver                        0x0000000100ae2c7e chromedriver + 511102
+                11  chromedriver                        0x0000000100af5462 chromedriver + 586850
+                12  chromedriver                        0x0000000100ae2c23 chromedriver + 511011
+                13  chromedriver                        0x0000000100ab875e chromedriver + 337758
+                14  chromedriver                        0x0000000100ab9a95 chromedriver + 342677
+                15  chromedriver                        0x0000000100f038ab __gxx_personality_v0 + 305803
+                16  chromedriver                        0x0000000100f1a863 __gxx_personality_v0 + 399939
+                17  chromedriver                        0x0000000100f1fc7f __gxx_personality_v0 + 421471
+                18  chromedriver                        0x0000000100f1bbba __gxx_personality_v0 + 404890
+                19  chromedriver                        0x0000000100ef7e51 __gxx_personality_v0 + 258097
+                20  chromedriver                        0x0000000100f37158 __gxx_personality_v0 + 516920
+                21  chromedriver                        0x0000000100f372e1 __gxx_personality_v0 + 517313
+                22  chromedriver                        0x0000000100f4e6f8 __gxx_personality_v0 + 612568
+                23  libsystem_pthread.dylib             0x00007fff6674f2eb _pthread_body + 126
+                24  libsystem_pthread.dylib             0x00007fff66752249 _pthread_start + 66
+                25  libsystem_pthread.dylib             0x00007fff6674e40d thread_start + 13
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

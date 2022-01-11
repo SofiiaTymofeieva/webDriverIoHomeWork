@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641475138588' stop='1641475139108'>
+    <name>API Testing of Juice-shop</name>
+    <title>API Testing of Juice-shop</title>
+    <test-cases>
+        <test-case start='1641475138589' status='passed' stop='1641475138618'>
+            <name>Checking GET feedbacks</name>
+            <title>Checking GET feedbacks</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1641475138618' status='broken' stop='1641475138890'>
+            <name>Checking POST for user creation</name>
+            <title>Checking POST for user creation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenShot' source='3cfae054-32fa-4370-9307-3fbf7bf9c28e-attachment.png' type='image/png' size='15122'/>
+            </attachments>
+            <failure>
+                <message>Bad Request</message>
+                <stack-trace>Error: Bad Request
+                    at Request.callback (/Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/node_modules/superagent/lib/node/index.js:883:15)
+                    at /Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/node_modules/superagent/lib/node/index.js:1127:20
+                    at IncomingMessage.&lt;anonymous> (/Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/node_modules/superagent/lib/node/parsers/json.js:22:7)
+                    at IncomingMessage.emit (events.js:412:35)
+                    at IncomingMessage.emit (domain.js:475:12)
+                    at endReadableNT (internal/streams/readable.js:1334:12)
+                    at processTicksAndRejections (internal/process/task_queues.js:82:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641475138890' status='broken' stop='1641475139107'>
+            <name>Checking POST for adding product</name>
+            <title>Checking POST for adding product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenShot' source='cb505269-4c0f-4783-97fe-313bcf2ae904-attachment.png' type='image/png' size='15122'/>
+            </attachments>
+            <failure>
+                <message>Unauthorized</message>
+                <stack-trace>Error: Unauthorized
+                    at Request.callback (/Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/node_modules/superagent/lib/node/index.js:883:15)
+                    at IncomingMessage.&lt;anonymous> (/Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/node_modules/superagent/lib/node/index.js:1127:20)
+                    at IncomingMessage.emit (events.js:412:35)
+                    at IncomingMessage.emit (domain.js:475:12)
+                    at endReadableNT (internal/streams/readable.js:1334:12)
+                    at processTicksAndRejections (internal/process/task_queues.js:82:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

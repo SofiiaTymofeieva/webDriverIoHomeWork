@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641247472558' stop='1641247508181'>
+    <name>About us page</name>
+    <title>About us page</title>
+    <test-cases>
+        <test-case start='1641247472558' status='broken' stop='1641247508180'>
+            <name>should successfully open twitter</name>
+            <title>should successfully open twitter</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenShot' source='ffd71f0d-f26a-4935-8ba1-6e64a4d016ee-attachment.png' type='image/png' size='400112'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "button[href="https://www.facebook.com/owasp.juiceshop"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "button[href="https://www.facebook.com/owasp.juiceshop"]" because element wasn't found
+                    at implicitWait (/Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (/Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)
+                    at async Element.wrapCommandFn (/Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:29)
+                    at async Button.click (file:///Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/base/baseElement.js:9:9)
+                    at async Context.&lt;anonymous> (file:///Users/sonyamileroy/Desktop/homeworkEleks/webDriverIoHomeWork/test/specs/positiveAboutUs.e2e.js:7:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

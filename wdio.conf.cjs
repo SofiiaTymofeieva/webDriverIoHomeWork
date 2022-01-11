@@ -23,7 +23,8 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/**/*.js',
+        './api/test/**/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -56,7 +57,7 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 10,
       
         //
         browserName: 'chrome',
@@ -66,13 +67,13 @@ exports.config = {
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
     }, 
-    {
-        maxInstances: 5,
-        browserName: 'firefox',
-        acceptInsecureCerts: true
+    // {
+    //     maxInstances: 10,
+    //     browserName: 'firefox',
+    //     acceptInsecureCerts: true
 
 
-    }
+    // }
 ],
     
     //
